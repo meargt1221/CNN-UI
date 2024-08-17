@@ -1,19 +1,46 @@
  <!DOCTYPE html>
- <html lang= eng>
-    
- <Head > 
+ <html lang= eng-US>
+ <Head >
+    <style>
+    ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:blue;
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: rgb(16, 247, 28);
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color:red;
+}
+.intro {
+ animation-direction: reverse;
+ animation-duration: 5s;
+}
     <meta charset="UTF-8">
-    <meta nam="viewport" content="width=device width, initual-scale=1.0">
+    <meta nam="viewport" content="width=device-width, initial-scale=1.0">
  <title>CNN Clone</title>
  <link rel="stylesheet" href="style.class"/>
- </head>
+    </style>
+  </head>
  <body>
-    <header style="background-color: black;color:red;text-align: center;font-size: 100;font-family: 'Times New Roman', Times, serif;display: inline-block:inline-flex; color: aliceblue;list-style: none;">
+    <header style="background-color:green; text-align: center;font-size: 100;font-family: 'Times New Roman', Times, serif;display: inline-block:inline-flex; color: aliceblue;list-style: none;">
         <div class="logo">
-            <h1>CNN</h1>
+    <h1>CNN</h1>
+    <h2 class="intro">This is CNN <mark>live</mark> streaming</h2>
         </div>
         <nav>
-            <ul>
+            <ul style="font-size: 20px;">
                 <li><a href="Home">Home</a></li>
                 <li><a href="World">World</a></li>
                 <li><a href="Politics">Politics</a></li>
